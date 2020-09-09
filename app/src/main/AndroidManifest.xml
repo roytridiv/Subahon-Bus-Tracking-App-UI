@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.subahon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/subahonmainlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".TrackRide" />
+        <activity android:name=".RechargeActivity" />
+        <activity android:name=".History" />
+        <activity android:name=".ContactUs" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".Profile" />
+        <activity android:name=".TicketVerification" />
+        <activity android:name=".MyBookings" />
+        <activity android:name=".SearchResult" />
+        <activity android:name=".BookTrip" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

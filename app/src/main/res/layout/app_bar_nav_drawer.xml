@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavDrawer">
+
+
+
+
+    <!--<include layout="@layout/activity_contact_us" />-->
+    <!--<include layout="@layout/activity_help" />-->
+    <!--<include layout="@layout/activity_history" />-->
+    <!--<include layout="@layout/activity_my_bookings" />-->
+    <!--<include layout="@layout/activity_profile" />-->
+    <!--<include layout="@layout/activity_recharge" />-->
+    <!--<include layout="@layout/activity_search_result" />-->
+    <!--<include layout="@layout/activity_ticket_verification" />-->
+    <!--<include layout="@layout/activity_track_ride" />-->
+    <include layout="@layout/activity_book_trip" />
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

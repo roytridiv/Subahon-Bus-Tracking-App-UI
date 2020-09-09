@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_part1"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/profileMenu"
+            android:icon="@drawable/profilelogomenubew"
+            android:title="Profile"/>
+
+
+        <item
+            android:id="@+id/bookingVerificationMenu"
+            android:icon="@drawable/bookingverificationmenuneww"
+            android:title="Booking Verification"/>
+
+        <item
+            android:id="@+id/trackRideMenu"
+            android:icon="@drawable/trackridelogomenunew"
+            android:title="Track Rode"/>
+
+        <item
+            android:id="@+id/yourTripMenu"
+            android:icon="@drawable/yourtripslogomenunew"
+            android:title="Your Trip"/>
+
+        <item
+            android:id="@+id/creditMenu"
+            android:icon="@drawable/creditlogomenunew"
+            android:title="Credit"/>
+
+        <item
+            android:id="@+id/notificationMenu"
+            android:icon="@drawable/bellicon"
+            android:title="Notification"/>
+
+        <item
+            android:id="@+id/helpMenu"
+            android:icon="@drawable/helplogomenunew"
+            android:title="Help"/>
+
+        <item
+            android:id="@+id/signoutMenu"
+            android:icon="@drawable/signoutlogomenunew"
+            android:title="Signout"/>
+    </group>
+
+</menu>
